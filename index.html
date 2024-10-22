@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -19,18 +19,28 @@
   </head>
   <body>
     <div class="hero">
-      <header>
-        <section class="nav-section">
+      <header class="nav-section">
+        <div class="container">
           <div class="logo-link__wrapper">
             <a class="logo-link" href="/">Orlov</a>
           </div>
           <nav class="nav">
-            <a class="nav-link" href="#porfolio">Портфолио</a>
-            <a class="nav-link" href="#competencies">Компетенции</a>
-            <a class="nav-link" href="#tasks">Услуги</a>
-            <a class="nav-link" href="#contacts">Контакты</a>
+            <ul>
+              <li class="header__list">
+                <a class="nav-link" href="#porfolio">Портфолио</a>
+              </li>
+              <li class="header__list">
+                <a class="nav-link" href="#competencies">Компетенции</a>
+              </li>
+              <li class="header__list">
+                <a class="nav-link" href="#tasks">Услуги</a>
+              </li>
+              <li class="header__list">
+                <a class="nav-link" href="#contacts">Контакты</a>
+              </li>
+            </ul>
           </nav>
-        </section>
+        </div>
       </header>
       <section id="porfolio" class="description">
         <div class="container">
@@ -199,7 +209,7 @@
               </p>
               <img
                 class="contacts__image"
-                src="recources/contacts__image.png"
+                src="../recources/contacts__image.png"
                 alt=""
               />
             </div>
