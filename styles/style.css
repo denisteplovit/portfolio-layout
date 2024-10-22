@@ -202,10 +202,6 @@ body {
   color: #fff;
 }
 
-/* .competence__text:nth-last-child(1) {
-  margin-bottom: 150px;
-} */
-
 .HTML-CSS-before:before {
   content: "";
   display: block;
@@ -343,7 +339,7 @@ body {
 
 .contacts__image {
   position: absolute;
-  left: 1031px;
+  left: 926px;
   bottom: 3px;
   width: 726px;
   height: 711px;
